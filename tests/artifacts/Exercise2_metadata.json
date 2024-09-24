@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_width",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_length",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_height",
+						"type": "uint256"
+					}
+				],
+				"name": "addBox",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "boxes",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "width",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "length",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "height",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/exercise2.sol": "Exercise2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/exercise2.sol": {
+			"keccak256": "0xd0c23cbf83585d9077a23dc7407f0929bd20e8a414f7fe16e5bbffb7de712613",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7a331e8c9e5001a5ca84fe03b1420d17e88025dbc50b0078063c0deb725c6727",
+				"dweb:/ipfs/QmeE7yHvrmm8sJbArcUKdbo9LprcFNn2QuW7ixHe4KAKyN"
+			]
+		}
+	},
+	"version": 1
+}
